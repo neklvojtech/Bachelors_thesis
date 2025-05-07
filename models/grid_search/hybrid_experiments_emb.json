@@ -1,0 +1,39 @@
+{          
+    "HEATER.py": {
+        "--seed": ["42","43", "44"],
+        "--device": "0",
+        "--validation": "true",
+        "--lr": ["0.0005", "0.005", "0.05"],
+        "--epochs": "10",
+        "--evaluate_epoch": "false",
+        "--dataset": "audiodataset_audio",
+        "--audio_emb_model": "true",
+        "--audio_att_model": "false",
+        "--factors": ["128","256"],
+        "--batch_size": "1024",
+        "--als_factors": "256",
+        "--als_regularization": "50",
+        "--als_iterations": "20",
+        "--als_use_gpu": "true",
+        "--flag": "HEATER_emb"
+    },
+
+    "train.py": {
+            "--seed": ["42","43", "44"],
+            "--device": "0",
+            "--dataset": "audiodataset_audio",
+            "--audio_emb_model": "true",
+            "--epochs": "10",
+            "--sbert_batch_size": "256",
+            "--batch_size": "1024",
+            "--max_output": "1024",
+            "--num_hidden_layers": ["1", "2", "3", "4"],
+            "--hidden_dimension": ["1024", "2048", "4096"],
+            "--output_dimension": "768",
+            "--evaluate": "true",
+            "--lr": ["0.00005", "0.0005", "0.005"],
+            "--validation": "true",
+            "--save_every_epoch": "false",
+            "--flag": "Beeformer_emb"
+    }
+}

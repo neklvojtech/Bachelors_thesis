@@ -1,0 +1,15 @@
+{
+    "content_based_similarity.py": {
+        "--seed": ["42", "43", "44"],
+        "--device": "0",
+        "--dataset": "audiodataset_audio",
+        "--audio_att": "true",
+        "--which_attributes": "all",
+        "--validation": "true",
+        "--pooling_time": ["end", "emb"],
+        "--scale_AST_att": ["true", "false"],
+        "--standardize_ast_att": ["true", "false"],
+        "--standardize_ess_att": ["true", "false"],
+        "--flag": "Content_based_att_all_2"
+    }
+}

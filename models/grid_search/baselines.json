@@ -1,0 +1,60 @@
+{   
+    "experiment_KNN.py": {
+        "--seed": ["42", "43", "44"],
+        "--dataset": "audiodataset_audio",
+        "--validation": "true",
+        "--pu": "5",
+        "--pi": "1",
+        "--neighbors": ["10", "50", "100", "200"],
+        "--flag": "KNN"
+    },
+  
+    "experiment_top_pop.py": {
+        "--seed": ["42", "43", "44"],
+        "--dataset": "audiodataset_audio",
+        "--validation": "true",
+        "--pu": "5",
+        "--pi": "1",
+        "--flag": "TOP_POP"
+    },
+
+    "experiment_EASE.py": {
+        "--seed": ["42", "43", "44"],
+        "--dataset": "audiodataset_audio",
+        "--validation": "true",
+        "--pu": "5",
+        "--pi": "1",
+        "--lam": ["10", "50", "100", "150"],
+        "--flag": "EASE"
+    },
+
+    "experiment_ALS.py": {
+      "--dataset": "audiodataset_audio",
+      "--device": "0",
+      "--seed": ["42", "43", "44"],
+      "--validation": "true",
+      "--pu": "5",
+      "--pi": "1",
+      "--factors": ["256", "512", "1024"],
+      "--regularization": ["10", "50"],
+      "--iterations": ["10", "20"],
+      "--num_threads": "1",
+      "--use_gpu": "true",
+      "--flag": "ALS"
+    },
+    
+    "experiment_ELSA.py": {
+        "--seed": ["42", "43", "44"],
+        "--device": "0",
+        "--factors": ["256", "512", "1024", "768"],
+        "--batch_size": "1024",
+        "--lr": ["0.001", "0.01", "0.1"],
+        "--epochs": "5",
+        "--model_strategy": "dense",
+        "--dataset": "audiodataset_audio",
+        "--validation": "true",
+        "--pu": "5",
+        "--pi": "1",
+        "--flag": "ELSA"
+    }
+}

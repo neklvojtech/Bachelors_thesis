@@ -1,0 +1,11 @@
+{      
+    "content_based_similarity.py": {
+        "--seed": ["42", "43", "44"],
+        "--device": "0",
+        "--dataset": "audiodataset_audio",        
+        "--audio_emb": "true",
+        "--validation": "true",
+        "--standardize": ["true", "false"],
+        "--flag": "Content_based_embeddings_3"
+    }
+}

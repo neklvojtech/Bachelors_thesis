@@ -1,0 +1,20 @@
+{
+    "train.py": {
+        "--seed": ["42", "43", "44"],
+        "--device": "1",
+        "--dataset": "audiodataset_audio",        
+        "--audio_att_model": "true",
+        "--epochs": "10",
+        "--sbert_batch_size": "256",
+        "--batch_size": "1024",
+        "--max_output": ["0", "1000", "2000", "3000", "4000", "5000", "6000", "7000", "8000", "9000", "10000"],
+        "--num_hidden_layers": "3",
+        "--hidden_dimension": "4096",
+        "--output_dimension": "768",
+        "--evaluate": "true",
+        "--lr": "0.00005",
+        "--validation": "true",
+        "--save_every_epoch": "false",
+        "--flag": "Beeformer_att_max_output"
+    }
+}

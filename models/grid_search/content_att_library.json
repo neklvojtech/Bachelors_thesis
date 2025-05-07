@@ -1,0 +1,13 @@
+{
+    "content_based_similarity.py": {
+        "--seed": ["42", "43", "44"],
+        "--device": "0",
+        "--dataset": "audiodataset_audio",
+        "--validation": "true",
+        "--audio_att": "true",
+        "--which_attributes": "library",
+        "--pooling_time": "end",
+        "--standardize_ess_att": ["true", "false"],
+        "--flag": "Content_based_att_lib_2"
+    }
+}

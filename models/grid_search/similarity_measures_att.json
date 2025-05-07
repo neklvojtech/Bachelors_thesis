@@ -1,0 +1,12 @@
+{      
+    "content_based_similarity.py": {
+        "--seed": ["42", "43", "44"],
+        "--device": "0",
+        "--dataset": "audiodataset_audio",        
+        "--audio_att": "true",
+        "--validation": "true",
+        "--standardize": "true",
+        "--similarity": ["cosine", "euclidean", "dot"],
+        "--flag": "Similarity_measures_att"
+    }
+}
