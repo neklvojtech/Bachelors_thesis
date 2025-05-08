@@ -5,6 +5,7 @@ This project focuses on building and evaluating recommendation models using **fe
 The main objective was to **extract meaningful attributes** and **test them** in both **content-only** and **hybrid recommendation** settings.  
 The core of the system is inspired by the **beeFormer** model.
 
+Due to data usage restrictions, the dataset employed in this thesis cannot be publicly shared. Consequently, the provided code cannot be executed in its current form.
 ---
 
 ## 📂 Project Structure
@@ -18,7 +19,7 @@ Here’s an overview of the key folders and files:
   - Stored in the `models/` directory.
   - Contains different architectures used across experiments.
 
-    #### Contents of `models/`:
+    ##### Contents of `models/` based on task:
 
     - **Content-Based Models**
       - Main scripts:  
@@ -84,7 +85,7 @@ python3 train.py --audio_model bookbot/distil-ast-audioset --dataset audiodatase
 ### Emb beeFormer
 
 ```bash
-python3 train.py --audio_emb_model true --dataset audiodataset_audio --device 3 --epochs 10 --sbert_batch_size 256 --batch_size 1024 --max_output 1024 --save_every_epoch false --validation True --evaluate true --evaluate_epoch true
+python3 train.py --audio_emb_model true --dataset audiodataset_audio --device 3 --epochs 10 --sbert_batch_size 256 --batch_size 1024 --max_output 5000 --save_every_epoch false --validation True --evaluate true --evaluate_epoch true --lr 5e-5
 ```
 
 ### Att beeFormer
