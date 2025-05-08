@@ -6,6 +6,7 @@ The main objective was to **extract meaningful attributes** and **test them** in
 The core of the system is inspired by the **beeFormer** model.
 
 Due to data usage restrictions, the dataset employed in this thesis cannot be publicly shared. Consequently, the provided code cannot be executed in its current form.
+
 ---
 
 ## 📂 Project Structure
