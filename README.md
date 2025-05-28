@@ -159,3 +159,7 @@ python3 experiment_top_pop.py --pu 5 --dataset audiodataset_audio
 ```bash
 python3 experiment_random.py --dataset audiodataset_audio --validation true --pu 5
 ```
+
+## Acknowladgement
+Tento software vznikl za podpory Fakulty informačních technologií ČVUT v Praze, fit.cvut.cz
+
