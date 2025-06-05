@@ -163,3 +163,5 @@ python3 experiment_random.py --dataset audiodataset_audio --validation true --pu
 ## Acknowladgement
 Tento software vznikl za podpory Fakulty informačních technologií ČVUT v Praze, fit.cvut.cz
 
+![Logo FIT](logo-FIT.jpg)
+
